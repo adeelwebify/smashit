@@ -1,0 +1,1 @@
+# Smashit Wordpress Theme
