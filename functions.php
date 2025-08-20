@@ -6,6 +6,10 @@
  * @package Smashit
  */
 
+if (!defined('ABSPATH')) {
+  exit;
+}
+
 use Smashit\Inc\Core\Smashit_Theme;
 
 defined('SMASHIT_DIRECTORY') or define('SMASHIT_DIRECTORY', get_template_directory());
