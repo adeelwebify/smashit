@@ -15,8 +15,9 @@ class Smashit_Theme {
 
   protected function __construct() {
     // Load classes
-    Assets::get_instance();
-    After_Setup_Theme::get_instance();
+    Assets::get_instance(); // Load assets
+    Theme_Support::get_instance(); // Enable theme functionality
+    After_Setup_Theme::get_instance(); // Quick actions after theme setup
 
     $this->setup_hooks();
   }
